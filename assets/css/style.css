@@ -1,0 +1,35 @@
+.form-container {
+	Blur: rgba(204, 198, 198, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(4.0px);
+	-webkit-backdrop-filter: blur(4.0px);
+	border-radius: 10px;
+}
+
+footer {
+	color: white;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+}
+
+footer > ul > a:hover {
+	text-decoration: none;
+}
+.copyright {
+	width: 100%;
+	text-align: center;
+}
+
+i {
+	padding-left: 20px;
+}
+
+@media screen and (max-width: 924px) {
+	.The-acord {
+		display: none;
+	}
+}
+
+.card {
+	border: none;
+}
